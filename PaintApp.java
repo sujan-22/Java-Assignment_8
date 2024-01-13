@@ -1,4 +1,10 @@
-//Author: Sujan Rokad, 000882948
+/*
+ * Author:                 Sujan Rokad, 000882948
+ * Authorship statement:   I, Sujan Rokad, 000882948, certify that this material is my original work.
+ *                         No other person's work has been used without due acknowledgment.
+ * Purpose:                Define a JavaFX application for a simple paint program with color selection, shape selection,
+ *                         size adjustment, drawing, and canvas clearing functionality.
+ */
 
 package Assignment_000882948;
 
@@ -15,6 +21,12 @@ import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+/**
+ * The PaintApp class represents a JavaFX application for a simple paint program with color selection, shape selection,
+ * size adjustment, drawing, and canvas clearing functionality.
+ *
+ * @author Sujan Rokad
+ */
 public class PaintApp extends Application {
     // instance variables for the PaintApp class
     private Canvas canvas;
